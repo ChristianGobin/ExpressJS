@@ -1,2 +1,2 @@
-# Node-ExpressApps
-JavaScript Apps using express and node.
+# Express Framework 
+Mainly BackEnd JavaScript
