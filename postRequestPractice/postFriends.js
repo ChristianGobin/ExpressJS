@@ -15,7 +15,8 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.post("/addfriend", function(req, res){
     var friend = req.body.newFriend;
     friends.push(friend);
-    res.send("You've made a new friend.")
+    //reload page with updated friend
+    res.redirect("/friends.ejs");
 });
 
 //hosting on port 3000
