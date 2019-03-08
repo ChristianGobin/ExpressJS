@@ -2,33 +2,23 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var app = express();
 
-//style sheet linked to main js.
-app.use(express.static("public"));
 var friends = ["Jake", "John" , "Joan", "Jill"];
 
-app.get("/", function(req,res){
-    res.render("home.ejs");
-});
-
-
-//////////////////////////////
+//render friends.ejs page. 
 app.get("/friends", function(req,res){
     res.render("friends.ejs",  {friends : friends});
 })
 
-//use body parser.
 app.use(bodyParser.urlencoded({extended: true}));
 
-//app post
+//make newFriend a variable and add that friend to array of friends. 
 app.post("/addfriend", function(req, res){
     var friend = req.body.newFriend;
     friends.push(friend);
-    res.send("Youve made a new friend.")
+    res.send("You've made a new friend.")
 });
 
-
-
-
+//hosting on port 3000
 app.listen(3000, function(){
     console.log("Now running on port 3000");
 })
