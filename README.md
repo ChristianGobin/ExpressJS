@@ -1,2 +1,2 @@
-# Express Framework 
-Mainly BackEnd JavaScript
+# Node.js 
+Mainly BackEnd JavaScript and EJS
