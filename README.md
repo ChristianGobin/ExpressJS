@@ -1,9 +1,10 @@
-# Node.js 
-Mainly BackEnd JavaScript and EJS
-
-Uses these npm packages:
-ejs,
-express,
-body-parser,
-faker,
-request
+# Node.js Practice
+BackEnd JavaScript
+<ul> 
+  <strong> <b> npm packages: </b> </strong>
+  <li> ejs </li>
+  <li> express </li>
+  <li> body-parser </li>
+  <li> faker </li>
+  <li> request </li>
+</ul>
