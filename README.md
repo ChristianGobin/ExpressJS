@@ -1,7 +1,9 @@
 # Node.js Practice
-BackEnd JavaScript
+BackEnd JavaScript - <br/>
+This is a Repo of my backend JavaScript progression. 
+
+<strong> <b> npm packages: </b> </strong>
 <ul> 
-  <strong> <b> npm packages: </b> </strong>
   <li> ejs </li>
   <li> express </li>
   <li> body-parser </li>
